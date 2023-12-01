@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <div className="bucket-app">
+      <div className="portfolio-app">
         <Header />
         <Outlet />
         <Footer />
