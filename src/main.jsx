@@ -5,6 +5,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import pages
+import Home from './pages/Home';
+import Work from './pages/Work';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 
 // create routes
 const router = createBrowserRouter([
