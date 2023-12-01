@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 function NavBar() {
     const page = useLocation().pathname;
-    const links = ["Home", "Work", "Resume", "Contact"];
+    const links = ["Work", "Resume", "Contact"];
 
     return (
         <ul>
