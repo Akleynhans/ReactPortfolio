@@ -1,13 +1,13 @@
 import './App.css';
 import { Outlet } from 'react-router-dom';
-import Nav from './components/NavBar';
+import Header from './components/Header';
 
 
 function App() {
   return (
     <>
       <div className="portfolio-app">
-        <Nav />
+        <Header />
         <Outlet />
       </div>
     </>
