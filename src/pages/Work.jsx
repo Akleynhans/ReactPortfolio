@@ -23,7 +23,7 @@ const completedWork = [
     },
 ]
 
-export default function workList() {
+export default function Work() {
     return (
         <div>
             <h1>Completed Work</h1>
