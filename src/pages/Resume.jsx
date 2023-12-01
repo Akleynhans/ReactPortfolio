@@ -1,5 +1,5 @@
 // resume link
-const url = "";
+const url = "https://resume.io/r/WvlStUmCj";
 
 
 
