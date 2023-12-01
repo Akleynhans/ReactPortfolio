@@ -5,19 +5,23 @@ function NavBar() {
     const links = ["Work", "Resume", "Contact"];
 
     return (
-        <ul>
-            <li>
-                <Link to="/" className={page === '/' ? 'nav-link active' : 'nav-link'}>
-                    Home
-                </Link>
-            </li>
-            {links.map((link) => (
-                <li>
+        <div>
 
-                    <Link to={"/" + link} className={page === `/${link}` ? 'nav-link active' : 'nav-link'} key={link} tab={link}>{link}</Link>
+            <ul className='nav nav-item' >
+                <li className='nav-item'>
+                    <Link to="/" className={page === '/' ? 'nav-link active' : 'nav-link'} id='navLink' >
+                        Home
+                    </Link>
                 </li>
-            ))}
-        </ul>
+                {links.map((link) => (
+                    <li className='nav-item'>
+
+                        <Link to={"/" + link} className={page === `/${link}` ? 'nav-link active' : 'nav-link'} id='navLink' key={link} tab={link}>{link}</Link>
+                    </li>
+                ))}
+            </ul>
+
+        </div>
     )
 }
 

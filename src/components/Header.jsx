@@ -3,10 +3,10 @@ import Nav from "./NavBar";
 
 function Header() {
     return (
-        <div>
+        <div className='headerContainer'>
 
             <div>
-                <h1>
+                <h1 id='mainName' >
                     AMY KLEYNHANS
                 </h1>
             </div>

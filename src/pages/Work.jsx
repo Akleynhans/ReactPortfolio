@@ -26,17 +26,17 @@ const completedWork = [
 export default function Work() {
     return (
         <div>
-            <h1>Completed Work</h1>
+            <h1 className="pageTitle" id="border" >Completed Work</h1>
 
             {completedWork.map((work) => (
 
-                <li>
+                <li className="workContainer" id="border" >
                     {/* make title clickable link */}
                     <a href={work.link}>
-                        <h3>{work.title}</h3>
+                        <h2 className="workTitle" >{work.title}</h2>
                     </a>
 
-                    <img alt={work.name} src={work.img} />
+                    <img className="workImages" alt={work.name} src={work.img} />
                     <h4>{work.desc}</h4>
                 </li>
             )

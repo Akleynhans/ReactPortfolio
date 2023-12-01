@@ -1,0 +1,94 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* universal */
+.pageTitle{
+    font-weight: bold;
+    color: #41b3a3;
+}
+
+
+/* links */
+a:link { text-decoration: none; }
+a:hover { transform: scale(1.1);}
+
+/* header */
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: solid #d684fc;
+}
+
+#mainName{
+    font-size: 55px;
+    font-weight: bold;
+    color: #d684fc;
+}
+
+#navLink{
+    color: #d684fc;
+}
+
+/* homepage */
+#border{
+    margin: 4%;
+    padding: 2%;
+    border: solid #41b3a3;
+}
+
+/* work */
+.workImages{
+    width: 75%;
+    margin: 2%;
+    border: solid lightcoral;
+    border-width: thick;
+}
+
+.workContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workTitle{
+    font-weight: bold;
+    color: #41b3a3;
+}
+
+h4{
+    text-align: center;
+   
+}
+
+/* contact */
+.contact-list{
+    display: flex;
+
+    margin: 4%;
+    padding: 2%;
+    border: solid #41b3a3;
+   
+}
+
+.logo{
+    width: 25%;
+    margin: 2%;
+}
+
+/* footer */
+.contact-list-foot{
+    display: flex;
+
+    border-top: solid #41b3a3;
+    padding-left: 15%;
+   
+}
+
+.logosm{
+    width: 10%;
+    margin: 2%;
+}
+
